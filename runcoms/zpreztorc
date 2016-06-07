@@ -41,6 +41,12 @@ zstyle ':prezto:load' pmodule \
   'git' \
   'ssh' \
   'tmux' \
+  'haskell' \
+  'node' \
+  'osx' \
+  'rails' \
+  'ruby' \
+  'syntax-highlighting' \
   'prompt'
 
 #
@@ -145,7 +151,7 @@ zstyle ':prezto:module:prompt' theme 'steeef'
 #
 
 # Auto switch the Ruby version on directory change.
-# zstyle ':prezto:module:ruby:chruby' auto-switch 'yes'
+zstyle ':prezto:module:ruby:chruby' auto-switch 'yes'
 
 #
 # Screen
